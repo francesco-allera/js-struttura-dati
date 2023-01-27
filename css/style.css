@@ -1,0 +1,34 @@
+body {
+    color: #fff;
+    background: #444;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+label {
+    margin-right: 5px;
+}
+button {
+    text-transform: uppercase;
+}
+button, select, option:hover {
+    cursor: pointer;
+}
+header, main, option {
+    text-transform: capitalize;
+}
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+main > * {
+    border: 3px solid #000;
+    border-radius: 7px;
+    padding: 0 15px;
+    width: 350px;
+}

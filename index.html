@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Struttura Dati</title>
+</head>
+<body>
+
+    <div id="app">
+        <!-- header -->
+        <header>
+            <div>
+                <label for="power-select">filtra per forza:</label>
+                <select name="power-select" id="power-select">
+                    <option value="default">
+                        scegli valore forza
+                    </option>
+                </select>
+            </div>
+
+            <div>
+                <label for="type-select">filtra per tipo:</label>
+                <select name="type-select" id="type-select">
+                    <option value="default">
+                        scegli tipo carta
+                    </option>
+                </select>
+            </div>
+
+            <div>
+                <button id="reset">
+                    resetta ricerche
+                </button>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- main auto populate by options -->
+        <main></main>
+        <!-- /main -->
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
